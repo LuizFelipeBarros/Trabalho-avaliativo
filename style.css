@@ -109,6 +109,7 @@ header{
     display: flex;
     background-size: cover;
     background-color: var(--cor-primaria);
+    text-align: center;
 }
 .Linha_rooms h2{
     font-size: 18px;
@@ -143,6 +144,9 @@ header{
     width: 500px;
     height: 300px;
 }
+.Linha_rest p{
+    margin-bottom: 30px;
+}
 /* ----- LOCALIZAÇÃO ----- */
 .Linha_local{
     width: 100%;
@@ -160,6 +164,13 @@ header{
     justify-content: center;
     background-size: cover;
     background-color: var(--cor-secundaria);
+}
+.Linha_reser h1{
+    text-align: center;
+    align-items: center;
+}
+.Linha_reser p{
+    margin-left: 1000px;
 }
 /* ----- RODAPÉ ----- */
 
@@ -192,5 +203,6 @@ footer {
 }
 .col_rodape img{
     margin-top: 15px;
-    align-items: center;
+    height: 70px;
+    margin-left: 60px;
 }
