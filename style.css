@@ -1,0 +1,196 @@
+/*-------FONTES--------*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*---------VARIAVEIS-------*/
+:root {
+
+    /*---cor---*/
+
+    --cor-primaria: #0342A6;
+    --cor-secundaria: #F2BC79;
+    --cor-terciaria: #00B5B2;
+    --text-cor: #0D0D0D;
+    --adicional-cor: #0375A6;
+    --color-back: #f5f5f5;
+
+    /*---fontes---*/
+
+    --primeira-font: 'Kalam';
+    --segunda-font: 'Poppins';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 120px;
+    color: var(--adicional-cor);
+    gap: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* ----- MENU ------*/
+.menu {
+    width: 700px;
+    border: 1px solid var(--text-cor);
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    padding: 100px 40px;
+    color: var(--text-cor);
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: var(--adicional-cor);
+}
+
+.logo h1:hover {
+    text-decoration: underline;
+    color: var(--adicional-cor);
+}
+
+/*-----SEÇÃO HOME----- */
+
+.Linha_home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    background-size: cover;
+    background-image: url(img/Recepção.png);
+    opacity: 50%;
+    background-color: var(--cor-secundaria);
+}
+
+.container {
+    font-family: var(--primeira-font);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    width: 1200px;
+    height: 100%;
+    padding-top: 110px;
+}
+.container h1{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+/* ----- QUARTOS ----- */
+.Linha_rooms{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-color: var(--cor-primaria);
+}
+.Linha_rooms h2{
+    font-size: 18px;
+}
+.container_rooms{
+    display: flex;
+    margin-left: 100px;
+    gap: 30px; /* espaço entre as colunas */
+    padding: 5px;
+}
+.suíte_images, .quarto_familia {
+    flex: 1.3;
+}
+
+.suíte_images img,
+.quarto_familia img {
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    gap: 20px;
+}
+/* ----- RESTAURANTE ----- */
+.Linha_rest{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-color: var(--cor-terciaria);
+}
+.Linha_rest img{
+    width: 500px;
+    height: 300px;
+}
+/* ----- LOCALIZAÇÃO ----- */
+.Linha_local{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-color: var(--adicional-cor);
+}
+/* ----- RESERVA ----- */
+.Linha_reser {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-color: var(--cor-secundaria);
+}
+/* ----- RODAPÉ ----- */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: var(--cor-primaria);
+    font-family: var(--segunda-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-cor);
+    text-align: center      ;
+}
+
+.col_rodape {
+    width: 400px;
+    height: 100%;
+    border: 1px 
+}
+.col_rodape h1{
+    font-family: var(--segunda-font);
+    text-align: center;
+}
+.col_rodape p{
+    font-family: var(--primeira-font);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.col_rodape img{
+    margin-top: 15px;
+    align-items: center;
+}
