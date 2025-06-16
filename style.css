@@ -158,6 +158,7 @@ header {
 
 /* --- LOCALIZAÇÃO --- */
 .Linha_local {
+  height: 100vh;
   padding: 80px 20px;
   background-color: var(--adicional-cor);
   color: var(--text-cor);
