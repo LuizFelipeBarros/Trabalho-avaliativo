@@ -84,6 +84,9 @@ header {
     background-color: var(--cor-secundaria);
     align-items: center;
 }
+.Linha_home img{
+  align-items: center;
+}
 
 .container {
     font-family: var(--primeira-font);
@@ -97,11 +100,6 @@ header {
     font-size: 30px;
     align-items: center;
     text-align: center;
-}
-.Linha_home h1{
-  display: flex;
-  text-align: center;
-  align-items: center;
 }
 /* ----- QUARTOS ----- */
 .Linha_rooms{
